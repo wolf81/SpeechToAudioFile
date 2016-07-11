@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		791A3FA81CC37E6B007ED577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 791A3FA71CC37E6B007ED577 /* main.m */; };
+		791A3FB21CC37F6E007ED577 /* SpeechToAudioFileConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 791A3FB11CC37F6E007ED577 /* SpeechToAudioFileConverter.m */; };
+		791A3FB41CC3802A007ED577 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791A3FB31CC3802A007ED577 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		791A3FA21CC37E6B007ED577 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		791A3FA41CC37E6B007ED577 /* SpeechToAudioFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SpeechToAudioFile; sourceTree = BUILT_PRODUCTS_DIR; };
+		791A3FA71CC37E6B007ED577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		791A3FB01CC37F6E007ED577 /* SpeechToAudioFileConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechToAudioFileConverter.h; sourceTree = "<group>"; };
+		791A3FB11CC37F6E007ED577 /* SpeechToAudioFileConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechToAudioFileConverter.m; sourceTree = "<group>"; };
+		791A3FB31CC3802A007ED577 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		791A3FA11CC37E6B007ED577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791A3FB41CC3802A007ED577 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791A3F9B1CC37E6B007ED577 = {
+			isa = PBXGroup;
+			children = (
+				791A3FB31CC3802A007ED577 /* AppKit.framework */,
+				791A3FA61CC37E6B007ED577 /* SpeechToAudioFile */,
+				791A3FA51CC37E6B007ED577 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		791A3FA51CC37E6B007ED577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				791A3FA41CC37E6B007ED577 /* SpeechToAudioFile */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		791A3FA61CC37E6B007ED577 /* SpeechToAudioFile */ = {
+			isa = PBXGroup;
+			children = (
+				791A3FA71CC37E6B007ED577 /* main.m */,
+				791A3FB01CC37F6E007ED577 /* SpeechToAudioFileConverter.h */,
+				791A3FB11CC37F6E007ED577 /* SpeechToAudioFileConverter.m */,
+			);
+			path = SpeechToAudioFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		791A3FA31CC37E6B007ED577 /* SpeechToAudioFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791A3FAB1CC37E6B007ED577 /* Build configuration list for PBXNativeTarget "SpeechToAudioFile" */;
+			buildPhases = (
+				791A3FA01CC37E6B007ED577 /* Sources */,
+				791A3FA11CC37E6B007ED577 /* Frameworks */,
+				791A3FA21CC37E6B007ED577 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechToAudioFile;
+			productName = SpeechToAudioFile;
+			productReference = 791A3FA41CC37E6B007ED577 /* SpeechToAudioFile */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		791A3F9C1CC37E6B007ED577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Wolfgang Schreurs";
+				TargetAttributes = {
+					791A3FA31CC37E6B007ED577 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 791A3F9F1CC37E6B007ED577 /* Build configuration list for PBXProject "SpeechToAudioFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 791A3F9B1CC37E6B007ED577;
+			productRefGroup = 791A3FA51CC37E6B007ED577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791A3FA31CC37E6B007ED577 /* SpeechToAudioFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		791A3FA01CC37E6B007ED577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791A3FB21CC37F6E007ED577 /* SpeechToAudioFileConverter.m in Sources */,
+				791A3FA81CC37E6B007ED577 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		791A3FA91CC37E6B007ED577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		791A3FAA1CC37E6B007ED577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		791A3FAC1CC37E6B007ED577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		791A3FAD1CC37E6B007ED577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		791A3F9F1CC37E6B007ED577 /* Build configuration list for PBXProject "SpeechToAudioFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791A3FA91CC37E6B007ED577 /* Debug */,
+				791A3FAA1CC37E6B007ED577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791A3FAB1CC37E6B007ED577 /* Build configuration list for PBXNativeTarget "SpeechToAudioFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791A3FAC1CC37E6B007ED577 /* Debug */,
+				791A3FAD1CC37E6B007ED577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 791A3F9C1CC37E6B007ED577 /* Project object */;
+}
