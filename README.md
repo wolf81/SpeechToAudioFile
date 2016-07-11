@@ -3,6 +3,7 @@ Simple (quick &amp; dirty) tool to convert some text into an AIFF file using App
 
 I use this project with a small Ruby script to parse some JSON files and convert the appropriate strings into audio files.
 
+``` ruby
 	#!/usr/bin/env ruby
 
 	require 'json'
@@ -28,4 +29,5 @@ I use this project with a small Ruby script to parse some JSON files and convert
 			end
 		end
 	end
+```
 
