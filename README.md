@@ -1,6 +1,12 @@
 # SpeechToAudioFile
 Simple (quick &amp; dirty) tool to convert some text into an AIFF file using Apple's Speech Synthesiser.
 
+Configure the following 3 switches when converting a file:
+
+- -t "text to translate"
+- -o "path to output file"
+- -l "locale to use for translation"
+
 I use this project with a small Ruby script to parse some JSON files and convert the appropriate strings into audio files.
 
 ``` ruby
