@@ -7,6 +7,10 @@ Configure the following 3 switches when converting a file:
 - -o "path to output file"
 - -l "locale to use for translation"
 
+Example: `./SpeechToAudioFile -t "สวัสดี" -l "th-TH" -o "~/Desktop/hello.aiff"`
+
+The result will be an audio file on the Desktop in which a Thai voice says 'sa-bai-dee', a Thai greeting.
+
 I use this project with a small Ruby script to parse some JSON files and convert the appropriate strings into audio files.
 
 ``` ruby
